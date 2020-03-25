@@ -29,5 +29,5 @@ def post_detail(request, slug):
     else:
         comment_form = CommentForm()
 
-    return render(request, 'comment.html', {'comment_form': comment_form})
+    return render(request, 'post_detail.html', {'comment_form': comment_form})
 # Create your views here.
